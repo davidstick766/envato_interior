@@ -1,0 +1,823 @@
+body {
+    margin: 0;
+    border: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff !important;
+    background: #181818 !important;
+}
+header {
+    height: 840px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    z-index: 2;
+    margin-top: 3%;
+}
+nav ul li {
+    margin-left: 10px;
+}
+nav ul li a {
+    color: #ffffff !important;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.hue {
+    color: #AC9675;
+}
+header li:nth-child(2) {
+    margin-left: 20%;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+    background-color: #181818;
+}
+.top .call {
+    margin-left: 10%;
+    font-size: 14px;
+}
+.top .toplink {
+    margin-right: 10%;
+}
+.top .toplink a {
+    display: inline-block;
+    font-size: 14px;
+    border-right: 1px solid #ffffff;
+    padding: 5px;
+    color: #ffffff;
+}
+.top .toplink a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.headericons {
+    margin-left: 10%;
+}
+.headericons a {
+    color: #ffffff !important;
+    font-size: 15px;
+}
+.headericons a:hover {
+    text-decoration: none;
+}
+.mobile-container {
+    display: none;
+}
+header h1 {
+    font-size: 80px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+header .decor {
+    color: #AC9675;
+}
+header .lorem {
+    font-size: 24px;
+    margin-top: 5%;
+    margin-left: 10%;
+    line-height: 2;
+}
+.buttons {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.buttons .see {
+    height: 60px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1.5px solid #ffffff;
+    font-size: 18px;
+}
+.buttons .see a {
+    color: #ffffff !important;
+}
+.buttons .see a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.buttons .book {
+    height: 60px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1.5px solid #ffffff;
+    font-size: 18px;
+    margin-left: 5%;
+}
+.buttons .book a {
+    color: #ffffff !important;
+}
+.buttons .book a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+header .bg {
+    width: 100%;
+    margin-top: -80%;
+    z-index: -1;
+    position: relative;
+    height: 1100px;
+}
+.ddot {
+    margin-top: -5%;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    /* margin: 0 2px; */
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-left: 2%;
+  }
+  
+  .active, .dot:hover {
+    background-color: #AC9675;
+  }
+  .logo {
+      display: none;
+  }
+  @media screen and (max-width: 320px) {
+    .bg {
+        height: 950px !important;
+    }
+    .ddot {
+        margin-top: -20%;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .mobile-container {
+        max-width: 600px;
+        margin: auto;
+        color: #ffffff;
+        border-radius: 10px;
+        display: Inline;
+        margin-top: -100%;
+      }
+      
+      .topnav {
+        background-color: #181818;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        text-align: center;
+        
+ 
+      }
+      
+      .topnav a.icon {
+        background: #181818;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #181818;
+        color: #ffffff;
+      }
+      
+      .active {
+        background-color: #181818;
+        color: #ffffff;
+        height: 10%;
+        margin-left: -35%;
+        margin-top: -7%;
+      }
+      .top {
+          display: none;
+      }
+      .desktop {
+          display: none;
+      }
+      .headericons {
+          display: none;
+      }
+      .logo {
+          display: block;
+          margin-left: 5%;
+          margin-top: 3%;
+      }
+      header h1 {
+          font-size: 36px;
+          text-align: center;
+          width: 100%;
+          margin-left: 0;
+      }
+      header .lorem {
+          font-size: 18px;
+          width: 95%;
+          margin-left: 0;
+          padding-left: 5%;
+          padding-right: 5%;
+      }
+      .buttons {
+          display: grid;
+      }
+      .buttons .see {
+          width: 60%;
+          margin-left: 20%;
+          margin-bottom: 10%;
+      }
+      .buttons .book {
+        width: 60%;
+        margin-left: 20%;
+      }
+      header .bg {
+          margin-top: -250%;
+      }
+}
+
+/*---first section ---*/
+.firstsec {
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.firstsec .bg2 {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    height: 750px;
+}
+/* .firstsec div .bg21 {
+    width: 80%;
+    margin-top: -105%;
+    margin-left: 2%;
+} */
+.firstsecin {
+    background-color: #ffffff;
+    width: 80%;
+    margin-top: -57%;
+    z-index: 3;
+    color: #000000 !important;
+    height: 600px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    position: relative;
+}
+.story {
+    display: flex;
+}
+.story i {
+    font-size: 50px;
+}
+.story .our {
+    margin-left: 5%;
+}
+.lorem2 {
+    font-size: 18px;
+    margin-top: 5%;
+}
+.readm {
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.readm:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* second section*/
+.secondsec {
+    margin-top: 10%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.secondsec div h3 {
+    color:  #AC9675;
+    font-size: 24px;
+}
+.secondsec div h1 {
+    font-size: 35px;
+    margin-top: 3%;
+}
+.secondsec div .lorem3 {
+    font-size: 18px;
+    line-height: 2;
+    width: 80%;
+}
+.secondsec div .threepics {
+    display: flex;
+    /* justify-content: space-between !; */
+    width: 83.5%;
+}
+.as {
+    margin-right: 5% !important;
+}
+.maxi {
+    width: 100%;
+    margin-top: 1%;
+    position: relative;
+}
+.mini {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    height: 220px;
+    width: 70%;
+    margin-bottom: -60%;
+    padding: 2%;
+    margin-left: 6%;
+    margin-right: 3%;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.mini .p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.mini .pp {
+    font-size: 13px;
+    text-align: center;
+}
+.mini button {
+    background-color: #AC9675;
+    height: 49px;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 80%;
+    margin-top: 15%;
+}
+.mini button a {
+    color: #ffffff;
+    text-decoration: none !important;
+    border-radius: 10px !important;
+}
+.mini button a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.band {
+    margin-top: 5%;
+}
+
+/* ---- third sec----*/
+.thirdsec {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px !important;
+}
+.brune {
+    height: 500px !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ----- fourth sec -------*/
+
+.fourthsec {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fourthsec h4 {
+    font-size: 24px;
+    color: #AC9675;
+    text-align: center;
+}
+.fourthsec h2 {
+    font-size: 35px;
+    text-align: center;
+}
+.fourthsec .lorem4 {
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+.fourcards {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.card1 {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000000;
+    padding: 2%;
+    text-align: center;
+    width: 20%;
+}
+.card1 .single {
+    color: #181818;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25% !important;
+}
+.card1 .money {
+    font-size: 36px;
+    color: #000000;
+}
+.card1 .money span {
+    font-size: 15px;
+}
+.card1 .things {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 2%;
+    font-size: 16px;
+}
+.card1btn {
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px !important;
+    background: #AC9675;
+    border: none !important;
+    margin-top: 10%;
+}
+.card1btn a {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+.card1btn a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.7;
+    
+}
+.card2 {
+    background: #AC9675;
+    color: #ffffff;
+    padding: 2%;
+    text-align: center;
+    width: 20%;
+}
+.card2 .office {
+    color: #ffffff;
+    margin-bottom: 25% !important;
+    font-weight: bold;
+}
+.card2 .thing {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    font-size: 16px;
+}
+.card2 .price {
+    font-size: 36px;
+    color: #ffffff;
+}
+.card2 .price span {
+    font-size: 15px;
+}
+.card2btn {
+    background: rgba(255, 255, 255, 0.8);
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px !important;
+    border: none !important;
+    margin-top: 10%;
+}
+.card2btn a {
+    color: #AC9675;
+}
+.card2btn a:hover {
+    color: #AC9675;
+    text-decoration: none;
+    opacity: 0.7;
+    border: none !important;
+}
+
+/*---section 5-----*/
+
+.fifthsec {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fifthsec h3 {
+    font-size: 36px;
+    text-align: center;
+}
+.fifthsecin {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.comb {
+    padding: 5%;
+    border: 1px solid #EEEEEE
+}
+.branch {
+    width: 85%;
+    margin-left: 7%;
+}
+.fig figcaption {
+    text-align: center;
+    margin-top: 2%;
+}
+.fig figcaption .bid{
+    font-size: 18px;
+    font-weight: bold;
+}
+.fig figcaption .rid {
+    color: #AC9675;
+    font-size: 12px;
+}
+
+/* --- section six ----*/
+ .sixthsec {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+ .sixthsec h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 5%;
+ }
+ .sixthsecin {
+     display: flex;
+     justify-content: space-between;
+ }
+ .sixthsecin .sixthdiv {
+     border: 1px solid #EEEEEE;
+     width: 30%;
+ }
+ .sixthdiv img {
+     width: 100%;
+ }
+ .nt {
+     border-bottom: 2px solid #ffffff;
+     width: 10%;
+     margin-top: 10%;
+     margin-bottom: 10%;
+     margin-left: 45%;
+ }
+ .sixthdiv p {
+     text-align: center;
+     font-size: 18px;
+ }
+ .form {
+     margin-top: 15%;
+     margin-left: 10%;
+ }
+ .form h3 {
+     font-size: 18px;
+     text-align: left;
+ }
+ .form .email {
+     height: 50px;
+     width: 60%;
+     background: transparent;
+     border: 1.5px solid #AC9675;
+     color: #ffffff !important;
+}
+.form .suscribe {
+    height: 50px;
+    width: 15%;
+    background: #AC9675;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+/*-----SEVENTH sec----*/
+.seventhsec {
+    margin-top: 10%;
+    width: 100%;
+}
+
+/*---responsive rules for the body----*/
+
+@media screen and (max-width: 768px) {
+    .firstsec {
+        position: absolute;
+    }
+    .firstsecin {
+        position: absolute;
+        margin-top: -190%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+    .bg {
+        position: absolute;
+    }
+    .firstsecin {
+        position: absolute;
+    }
+    .secondsec {
+        margin-top: 210%;
+    }
+    .lorem2 {
+        font-size: 16px;
+    }
+    .lorem2 span {
+        display: none;
+    }
+    .secondsec {
+        display: grid;
+        margin: auto;
+    }
+    .secondsec div .threepics {
+        display: grid;
+        margin: auto;
+    }
+    .secondsec div img {
+        width: 90%;
+        margin-left: 5%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .secondsec div h3 {
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .secondsec div h1{
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 80%;
+    }    
+    .secondsec div .lorem3 {
+        width: 70%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 16px;
+    }
+    .maxi {
+        width: 90%;
+        padding: 5%;
+    }
+    .mini {
+        width: 60%;
+        height: 210px;
+        margin-top: 10%;
+        margin-left: 12%;
+    }
+    .band {
+        display: none;
+    }
+    .src {
+        display: none;
+    }
+    .thirdsec {
+        display: none;
+        width: 100%;
+        height: 200px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .brune {
+        width: 100%;
+    }
+    .fourthsec h4 {
+        font-size: 18px;
+    }
+    .fourthsec h2 {
+        font-size: 20px;
+    }
+    .fourthsec .lorem4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .fourcards {
+        display: grid;
+        margin: auto;
+    }
+    .fourcards div {
+        margin-bottom: 10%;
+    }
+     .card1 {
+        width: 200%;
+    }
+    .card2 {
+        width: 200%;
+    }
+    .fifthsec h3 {
+        font-size: 24px;
+    }
+    .fifthsecin {
+        display: grid;
+        margin: auto;
+    }
+    .fifthsecin .fig {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    .sixthsec h3 {
+        font-size: 24px;
+    }
+    .sixthsecin {
+        display: grid;
+        margin: auto;
+    }
+    .sixthsecin .sixthdiv {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .mail {
+        display: grid;
+        margin: auto;
+        width: 100%;
+    }
+    .form .email {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        border-radius: 5px !important;
+    }
+    .form .suscribe {
+        width: 50%;
+        margin-left: 0;
+    }
+    .seventhsec {
+        width: 100%;
+        height: 300px;
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 414px) {
+    .firstsec {
+        margin-top: 10%;
+    }
+    .firstsecin {
+        position: absolute;
+        margin-top: -195%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+    .secondsec {
+        margin-top: 210%;
+    }
+    .secondsec div .lorem3 {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .firstsec {
+        margin-top: 25%;
+    }
+    .firstsecin {
+        position: absolute;
+        margin-top: -215%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+    .secondsec {
+        margin-top: 250%;
+    }
+    .secondsec div .lorem3 {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .firstsec {
+        margin-top: 30%;
+    }
+    .firstsecin {
+        position: absolute;
+        margin-top: -215%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .firstsec {
+        margin-top: 40%;
+        
+    }
+    .firstsecin {
+        position: absolute;
+        margin-top: -255%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+    .secondsec {
+        margin-top: 300%;
+    }
+    .secondsec div .lorem3 {
+        width: 90%;
+    }
+}
